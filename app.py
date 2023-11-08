@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 
 # TODO: DB connection
-app.config['SQLALCHEMY_DATABASE_URI']= 'mysql://root:pickle-Rick69@localhost:3306/movie_schema'
+app.config['SQLALCHEMY_DATABASE_URI']= 'mysql://root:password@localhost:3306/movie_schema'
 #app.config['SQLALCEMY_TRACK_MODIFICATIONS']=False
 db.init_app(app)
 
